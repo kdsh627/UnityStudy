@@ -15,9 +15,27 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack",
+                    "name": "AttackDown",
                     "type": "Button",
                     "id": "703f166f-c4a3-428a-b424-e770927000ee",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AttackForward",
+                    "type": "Button",
+                    "id": "a2cab228-7c28-4c66-a4a0-4fd0f14bae65",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BackStep",
+                    "type": "Button",
+                    "id": "6dcb6b3d-ab67-49d5-a4a5-20ff8fbb2d0a",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -87,7 +105,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";PC",
-                    "action": "Attack",
+                    "action": "AttackDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7288b5b0-48eb-4e6d-9db2-0054df214663",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c326f8ac-1791-48ae-bd44-e95f1e79b0fd",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackStep",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

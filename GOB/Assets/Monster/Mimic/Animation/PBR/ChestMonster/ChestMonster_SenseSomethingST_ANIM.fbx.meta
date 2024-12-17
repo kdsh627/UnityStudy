@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000017704882825645766570
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: ChestMonster_SenseSomethingST_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1

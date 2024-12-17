@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000014219146018743169347
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: TurtleShell_Taunt_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1

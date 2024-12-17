@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000000547916527026710965
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: Slime_Dizzy_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1

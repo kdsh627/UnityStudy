@@ -1,0 +1,2445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1030981041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981042}
+  - component: {fileID: 7105182677744086172}
+  m_Layer: 0
+  m_Name: Beholder_SK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981045}
+  - {fileID: 1030981048}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7105182677744086172
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981041}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37daa5f2d69c98f49b2702aa75d30292, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1030981044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981045}
+  - component: {fileID: 1030981046}
+  m_Layer: 0
+  m_Name: Beholder_SK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981042}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1030981046
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981044}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -876546973899608171, guid: 10d9339d3273e404d91835daeaed9d71, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: abc00000000001424831777277693841, type: 3}
+  m_Bones:
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  - {fileID: 1030981048}
+  - {fileID: 1030981050}
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981074}
+  - {fileID: 1030981076}
+  - {fileID: 1030981078}
+  - {fileID: 1030981080}
+  - {fileID: 1030981082}
+  - {fileID: 1030981084}
+  - {fileID: 1030981086}
+  - {fileID: 1030981088}
+  - {fileID: 1030981090}
+  - {fileID: 1030981092}
+  - {fileID: 1030981094}
+  - {fileID: 1030981096}
+  - {fileID: 1030981098}
+  - {fileID: 1030981100}
+  - {fileID: 1030981102}
+  - {fileID: 1030981104}
+  - {fileID: 1030981106}
+  - {fileID: 1030981108}
+  - {fileID: 1030981110}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981116}
+  - {fileID: 1030981118}
+  - {fileID: 1030981120}
+  - {fileID: 1030981122}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981128}
+  - {fileID: 1030981130}
+  - {fileID: 1030981132}
+  - {fileID: 1030981134}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1030981048}
+  m_AABB:
+    m_Center: {x: -0.38179684, y: -0.087684035, z: -0.107222795}
+    m_Extent: {x: 1.5505083, y: 1.421992, z: 1.2795718}
+  m_DirtyAABB: 0
+--- !u!1 &1030981047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981048}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981047}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  m_LocalPosition: {x: 0, y: 0, z: 2.44}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981050}
+  m_Father: {fileID: 1030981042}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -45}
+--- !u!1 &1030981049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981050}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981049}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.360328, y: 0.932826, z: 0, w: -0}
+  m_LocalPosition: {x: -0.276938, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981052}
+  - {fileID: 1030981054}
+  - {fileID: 1030981056}
+  - {fileID: 1030981058}
+  - {fileID: 1030981060}
+  - {fileID: 1030981062}
+  - {fileID: 1030981070}
+  - {fileID: 1030981072}
+  - {fileID: 1030981082}
+  - {fileID: 1030981092}
+  - {fileID: 1030981102}
+  - {fileID: 1030981112}
+  - {fileID: 1030981114}
+  - {fileID: 1030981124}
+  - {fileID: 1030981126}
+  - {fileID: 1030981136}
+  - {fileID: 1030981138}
+  m_Father: {fileID: 1030981048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981052}
+  m_Layer: 0
+  m_Name: BottomBodyCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981051}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004294, y: 0.707094, z: 0.004294, w: 0.707094}
+  m_LocalPosition: {x: -0.330167, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981054}
+  m_Layer: 0
+  m_Name: TopBodyCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004294, y: 0.707094, z: 0.004294, w: 0.707094}
+  m_LocalPosition: {x: 0.32294, y: 0.008136, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981056}
+  m_Layer: 0
+  m_Name: LeftBodyCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981055}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004294, y: 0.707094, z: 0.004294, w: 0.707094}
+  m_LocalPosition: {x: 0.005986, y: -0.000085, z: 0.336505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981058}
+  m_Layer: 0
+  m_Name: RightBodyCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981057}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.707094, y: 0.004294, z: -0.707094, w: 0.004294}
+  m_LocalPosition: {x: 0.005988, y: -0.000085, z: -0.336505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981060}
+  m_Layer: 0
+  m_Name: RearBodyCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981059}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004294, y: 0.707094, z: 0.004294, w: 0.707094}
+  m_LocalPosition: {x: -0.002364, y: 0.299807, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981062}
+  m_Layer: 0
+  m_Name: EyeCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981061}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69119, y: 0.722673, z: 0, w: -0}
+  m_LocalPosition: {x: 0.008593, y: -0.180792, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981064}
+  - {fileID: 1030981066}
+  - {fileID: 1030981068}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981064}
+  m_Layer: 0
+  m_Name: EyeBallCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981063}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.491839, y: -0.508029, z: -0.491839, w: 0.508029}
+  m_LocalPosition: {x: -0.122425, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981062}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981066}
+  m_Layer: 0
+  m_Name: UpperEyelidCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.491839, y: -0.508029, z: -0.491839, w: 0.508029}
+  m_LocalPosition: {x: -0.125973, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981062}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981068}
+  m_Layer: 0
+  m_Name: LowerEyelidCTRL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981067}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.491839, y: -0.508029, z: -0.491839, w: 0.508029}
+  m_LocalPosition: {x: -0.125973, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981062}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981070}
+  m_Layer: 0
+  m_Name: Process01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.007078, y: -0.996974, z: -0.013843, w: -0.076171}
+  m_LocalPosition: {x: 0.41532, y: -0.063651, z: 0.086976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981072}
+  m_Layer: 0
+  m_Name: TentacleA01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.069187, y: 0.883302, z: 0.041819, w: 0.461781}
+  m_LocalPosition: {x: 0.230635, y: -0.066299, z: 0.360397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981074}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981074}
+  m_Layer: 0
+  m_Name: TentacleA02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.003492, y: 0.022516, z: -0.014604, w: 0.999634}
+  m_LocalPosition: {x: -0.12595, y: -0.001108, z: -0.001722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981076}
+  m_Father: {fileID: 1030981072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981076}
+  m_Layer: 0
+  m_Name: TentacleA03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981075}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004671, y: -0.028901, z: 0.020978, w: 0.999351}
+  m_LocalPosition: {x: -0.14155, y: 0.00094, z: -0.002486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981078}
+  m_Father: {fileID: 1030981074}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981078}
+  m_Layer: 0
+  m_Name: TentacleA04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981077}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000682, y: 0.003853, z: -0.006161, w: 0.999973}
+  m_LocalPosition: {x: -0.109062, y: -0.000931, z: 0.003234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981080}
+  m_Father: {fileID: 1030981076}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981080}
+  m_Layer: 0
+  m_Name: TentacleA05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981079}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.31532, y: 0.327044, z: -0.668472, w: 0.588864}
+  m_LocalPosition: {x: -0.163876, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981078}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981082}
+  m_Layer: 0
+  m_Name: TentacleE01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981081}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.242932, y: -0.928457, z: 0.074422, w: 0.270949}
+  m_LocalPosition: {x: 0.308383, y: -0.175414, z: -0.215707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981084}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981084}
+  m_Layer: 0
+  m_Name: TentacleE02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981083}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.005138, y: -0.0092, z: -0.014675, w: 0.999837}
+  m_LocalPosition: {x: -0.108212, y: 0.000735, z: -0.000466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981086}
+  m_Father: {fileID: 1030981082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981086}
+  m_Layer: 0
+  m_Name: TentacleE03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981085}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.002167, y: -0.004303, z: -0.028125, w: 0.999593}
+  m_LocalPosition: {x: -0.117827, y: 0.000561, z: -0.000087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981088}
+  m_Father: {fileID: 1030981084}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981088}
+  m_Layer: 0
+  m_Name: TentacleE04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981087}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.009239, y: -0.017731, z: 0.04197, w: 0.998919}
+  m_LocalPosition: {x: -0.083716, y: 0.003805, z: 0.001566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981090}
+  m_Father: {fileID: 1030981086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981090}
+  m_Layer: 0
+  m_Name: TentacleE05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000168, y: 0.021437, z: -0.026753, w: 0.999412}
+  m_LocalPosition: {x: -0.150946, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981088}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981092}
+  m_Layer: 0
+  m_Name: TentacleD01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981091}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.056883, y: -0.639174, z: -0.058702, w: 0.764706}
+  m_LocalPosition: {x: -0.081711, y: 0.062757, z: -0.4112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981094}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981094}
+  m_Layer: 0
+  m_Name: TentacleD02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981093}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.002467, y: 0.014912, z: 0.00145, w: 0.999885}
+  m_LocalPosition: {x: -0.12008, y: -0.000031, z: 0.000323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981096}
+  m_Father: {fileID: 1030981092}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981096}
+  m_Layer: 0
+  m_Name: TentacleD03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981095}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000086, y: 0.000533, z: 0.001912, w: 0.999998}
+  m_LocalPosition: {x: -0.158545, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981098}
+  m_Father: {fileID: 1030981094}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981098}
+  m_Layer: 0
+  m_Name: TentacleD04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981097}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.004311, y: 0.022799, z: -0.028201, w: 0.999333}
+  m_LocalPosition: {x: -0.12109, y: -0.002123, z: -0.001701}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981100}
+  m_Father: {fileID: 1030981096}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981100}
+  m_Layer: 0
+  m_Name: TentacleD05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981099}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.002953, y: -0.006371, z: -0.011479, w: 0.999909}
+  m_LocalPosition: {x: -0.122879, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981098}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981102}
+  m_Layer: 0
+  m_Name: TentacleB01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.107625, y: 0.43349, z: 0.22612, w: 0.865663}
+  m_LocalPosition: {x: -0.196508, y: -0.185616, z: 0.323406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981104}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981104}
+  m_Layer: 0
+  m_Name: TentacleB02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.011304, y: 0.020597, z: 0.003089, w: 0.999719}
+  m_LocalPosition: {x: -0.106915, y: 0.000633, z: -0.003916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981106}
+  m_Father: {fileID: 1030981102}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981106}
+  m_Layer: 0
+  m_Name: TentacleB03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981105}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.007682, y: -0.013958, z: -0.00189, w: 0.999871}
+  m_LocalPosition: {x: -0.148178, y: -0.000407, z: 0.00319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981108}
+  m_Father: {fileID: 1030981104}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981108}
+  m_Layer: 0
+  m_Name: TentacleB04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.013741, y: 0.024218, z: 0.014808, w: 0.999503}
+  m_LocalPosition: {x: -0.127119, y: 0.003457, z: -0.005482}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981110}
+  m_Father: {fileID: 1030981106}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981110}
+  m_Layer: 0
+  m_Name: TentacleB05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.020351, y: 0.01345, z: -0.00388, w: 0.999695}
+  m_LocalPosition: {x: -0.185586, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981108}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981112}
+  m_Layer: 0
+  m_Name: Process04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981111}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.041263, y: -0.278566, z: 0.202091, w: 0.938007}
+  m_LocalPosition: {x: -0.318624, y: -0.188255, z: -0.221346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981114}
+  m_Layer: 0
+  m_Name: TentacleC01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.008291, y: -0.080771, z: -0.08972, w: 0.992652}
+  m_LocalPosition: {x: -0.391238, y: 0.056654, z: -0.083764}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981116}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981116}
+  m_Layer: 0
+  m_Name: TentacleC02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981115}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.003356, y: -0.018895, z: 0.016666, w: 0.999677}
+  m_LocalPosition: {x: -0.09142, y: 0.000424, z: 0.000484}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981118}
+  m_Father: {fileID: 1030981114}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981118}
+  m_Layer: 0
+  m_Name: TentacleC03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981117}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.002389, y: 0.016198, z: 0.012659, w: 0.999786}
+  m_LocalPosition: {x: -0.115852, y: -0.000052, z: 0.000066}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981120}
+  m_Father: {fileID: 1030981116}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981120}
+  m_Layer: 0
+  m_Name: TentacleC04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.002788, y: -0.017906, z: -0.02067, w: 0.999622}
+  m_LocalPosition: {x: -0.088513, y: -0.000317, z: 0.000273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981122}
+  m_Father: {fileID: 1030981118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981122}
+  m_Layer: 0
+  m_Name: TentacleC05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.053211, y: 0.018032, z: -0.000584, w: 0.99842}
+  m_LocalPosition: {x: -0.098195, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981124}
+  m_Layer: 0
+  m_Name: Process03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.025668, y: 0.034598, z: -0.219928, w: 0.974564}
+  m_LocalPosition: {x: -0.37941, y: 0.181599, z: 0.069169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981126}
+  m_Layer: 0
+  m_Name: TentacleF01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981125}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.371287, y: 0.888518, z: -0.100917, w: 0.249995}
+  m_LocalPosition: {x: 0.247732, y: 0.28514, z: 0.179133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981128}
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981128}
+  m_Layer: 0
+  m_Name: TentacleF02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.011924, y: -0.012156, z: 0.003737, w: 0.999848}
+  m_LocalPosition: {x: -0.149632, y: 0.000207, z: 0.000703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981130}
+  m_Father: {fileID: 1030981126}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981130}
+  m_Layer: 0
+  m_Name: TentacleF03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981129}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.008241, y: 0.008191, z: -0.016416, w: 0.999798}
+  m_LocalPosition: {x: -0.187017, y: -0.00094, z: -0.00046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981132}
+  m_Father: {fileID: 1030981128}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981132}
+  m_Layer: 0
+  m_Name: TentacleF04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981131}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.047268, y: -0.048624, z: 0.033514, w: 0.997135}
+  m_LocalPosition: {x: -0.148786, y: 0.005886, z: 0.00947}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1030981134}
+  m_Father: {fileID: 1030981130}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981134}
+  m_Layer: 0
+  m_Name: TentacleF05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981133}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.086907, y: 0.076623, z: -0.03046, w: 0.992798}
+  m_LocalPosition: {x: -0.178962, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981136}
+  m_Layer: 0
+  m_Name: Process02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981135}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.193307, y: 0.584853, z: -0.138852, w: 0.775435}
+  m_LocalPosition: {x: -0.07567, y: 0.18774, z: 0.388044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1030981137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030981138}
+  m_Layer: 0
+  m_Name: Process05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030981138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030981137}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.488442, y: 0.419406, z: -0.716172, w: 0.269482}
+  m_LocalPosition: {x: 0.150178, y: 0.262329, z: -0.249515}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030981050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

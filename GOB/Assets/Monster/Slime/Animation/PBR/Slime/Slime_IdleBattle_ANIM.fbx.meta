@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000017312822652009959805
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: Slime_IdleBattle_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1

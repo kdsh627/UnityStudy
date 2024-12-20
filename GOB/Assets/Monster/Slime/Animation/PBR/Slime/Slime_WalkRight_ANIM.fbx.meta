@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000018265234343569639592
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: Slime_WalkRight_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1

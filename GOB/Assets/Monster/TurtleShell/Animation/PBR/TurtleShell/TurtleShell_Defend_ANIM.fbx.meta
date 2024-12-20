@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abc00000000008957805664195777685
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    7400000: TurtleShell_Defend_ANIM
+  animations:
+    animationWrapMode: 2
+  animationType: 1
